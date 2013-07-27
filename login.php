@@ -1,5 +1,9 @@
 <?php 
+include_once 'inc/config.php';
+include_once 'inc/TYauth.php';
 
+$o = new TYAuthV2(APP_ID, APP_SECRET);
+$url = $o -> getAuthorizeURL(TY_CALL_BACK);
 	
 
 ?>
@@ -83,7 +87,7 @@
 		<td>&nbsp;</td>
 	</tr>
 </table>
-<p style="padding-top: 8px;"><a href=""><img src="/images/tianyi.jpg" /></a></p>
+<p style="padding-top: 8px;"><a href="<?php echo $url ; ?>"><img src="/images/tianyi.jpg" /></a></p>
 </div>
 </div>
 </form>
