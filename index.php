@@ -17,13 +17,7 @@ if (isset ( $_SESSION ['login'] ) && !empty($_SESSION ['login'])) {
 <link rel="stylesheet" href="/css/style.css"
 	type="text/css" />
 <link rel="stylesheet"
-	href="http://account.uucall.com/css/account_index.css" type="text/css" />
-<link rel="stylesheet"
-	href="http://account.uucall.com/css/account_con.css" type="text/css" />
-<link rel="stylesheet" href="http://www.uucall.com/css/my_rate.css"
-	type="text/css" />
-<link rel="stylesheet" href="http://www.uucall.com/css/free.css"
-	type="text/css" />
+	href="/css/logged.css" type="text/css" />
 </head>
 
 <body>
