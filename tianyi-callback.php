@@ -19,7 +19,7 @@ if ($_REQUEST['code']) {
 		
 	}
 }
-
+var_dump($_SESSION);
 /*if (isset($_SESSION['ty_token']) && $_SESSION['ty_token']['access_token']) {
 	header('location:/');
 } else {
