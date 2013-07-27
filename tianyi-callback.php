@@ -13,9 +13,15 @@ if ($_REQUEST['code']) {
 	$keys['redirect_uri'] = TY_CALL_BACK;
 	try {
 		$token = $o->getAccessToken( 'code', $keys ) ;
-		var_dump($token);
+		$_SESSION['ty_token'] = $token;
 	} catch (Exception $e) {
 		
 	}
+}
+
+if (isset($_SESSION['ty_token']) && $_SESSION['ty_token']['access_token']) {
+	header('location:/');
+} else {
+	header('location:/login.php');
 }
 
