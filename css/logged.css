@@ -1,0 +1,2005 @@
+@CHARSET "UTF-8";
+
+#maincon {
+	height: auto !important;
+	height: 600px;
+	min-height: 600px;
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/acc_index_new_05.jpg);
+}
+
+#maincon_l {
+	width: 732px;
+	float: left;
+	margin-right: 8px;
+}
+
+#maincon_r {
+	width: 190px;
+	float: left;
+}
+
+#maincon_l_c {
+	width: 732px;
+}
+
+#maincon_l_c_l {
+	width: 163px;
+	float: left;
+	display: inline;
+	margin: 0px 1px;
+}
+
+#maincon_r_c {
+	padding: 0px 8px 0 10px;
+	width: 171px;
+}
+
+#maincon_r_c ul li {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_icob2.gif)
+		no-repeat scroll left 12px transparent;
+}
+
+#maincon_r_c ul li a {
+	padding-left: 10px;
+	line-height: 24px;
+	height: 24px;
+}
+
+#maincon_l_c_l h1 {
+	height: 50px;
+	line-height: 50px;
+	color: #FE4C04;
+	font-weight: bold;
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/account_index_13.jpg)
+		20px no-repeat;
+}
+
+#maincon_c_l_h1 a:link,#maincon_c_l_h1 a:visited {
+	color: #FE4C04;
+}
+
+#maincon_c_l_h1 a:hover {
+	color: #FE4C04;
+}
+
+#maincon_l_c_l h2 {
+	height: 27px;
+	width: 163px;
+	background: #CBE7FF;
+	line-height: 27px;
+	color: #333;
+	font-weight: bold;
+}
+
+#maincon_l_c_l h2 span {
+	display: block;
+	width: 118px;
+	text-align: left;
+}
+
+#maincon_l_c_l h2 span#left_title1 {
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/account_index_24.jpg)
+		20px no-repeat;
+	padding-left: 45px;
+}
+
+#maincon_l_c_l h2 span#left_title2 {
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/account_index_35.jpg)
+		20px no-repeat;
+	padding-left: 45px;
+}
+
+#maincon_l_c_l ul {
+	padding-left: 35px;
+}
+
+#maincon_l_c_l ul li {
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/index_body_24.jpg)
+		left no-repeat;
+	padding-left: 10px;
+}
+
+#maincon_l_c_l ul li strong {
+	color: #FD4B05;
+}
+
+#maincon_l_c_r {
+	float: left;
+	line-height: 26px;
+}
+
+#maincon_l_c_r_con {
+	width: 460px;
+	margin-left: 50px;
+	text-align: left;
+	padding: 5px 0px;
+}
+
+#maincon_l_c_r_con hr {
+	border: none;
+	border-bottom: 1px dashed #E0E0E0;
+	height: 1px;
+	overflow: hidden;
+}
+
+#mibao_msg {
+	height: 28px;
+	width: 100%;
+	border: 1px solid #FE5D65;
+	background: #FAEAEB;
+	margin-bottom: 5px;
+}
+
+#mibao_msg font {
+	display: block;
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/gift_03.jpg) left
+		no-repeat;
+	margin-left: 10px;
+	padding-left: 20px;
+	font-size: 12px;
+	width: 300px;
+	float: left;
+	display: inline;
+}
+
+#active_msg {
+	height: 28px;
+	width: 100%;
+	border: 1px solid #74CAFB;
+	background: #ECF7FB;
+	margin-bottom: 5px;
+}
+
+#active_msg font {
+	display: block;
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/account_index_16.jpg)
+		left no-repeat;
+	margin-left: 10px;
+	padding-left: 20px;
+	font-size: 12px;
+	float: left;
+	display: inline;
+}
+
+#active_exit {
+	float: right;
+	width: 20px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+
+#free_msg {
+	height: 28px;
+	width: 100%;
+	border: 1px solid #74CAFB;
+	background: #ECF7FB;
+	margin-bottom: 5px;
+}
+
+#free_msg font {
+	display: block;
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/account_index_16.jpg)
+		left no-repeat;
+	margin-left: 10px;
+	padding-left: 20px;
+	font-size: 12px;
+	width: 300px;
+	float: left;
+	display: inline;
+}
+
+#free_exit {
+	float: right;
+	width: 20px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+
+#email_msg {
+	height: 28px;
+	width: 100%;
+	border: 1px solid #74CAFB;
+	background: #ECF7FB;
+	margin-bottom: 5px;
+}
+
+#email_msg font {
+	display: block;
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/account_index_16.jpg)
+		left no-repeat;
+	margin-left: 10px;
+	padding-left: 20px;
+	font-size: 12px;
+	width: 300px;
+	float: left;
+	display: inline;
+}
+
+#email_exit {
+	float: right;
+	width: 20px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+
+#unread_msg {
+	height: 28px;
+	width: 100%;
+	border: 1px solid #74CAFB;
+	background: #ECF7FB;
+	margin-bottom: 5px;
+}
+
+#unread_msg font {
+	display: block;
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/account_index_16.jpg)
+		left no-repeat;
+	margin-left: 10px;
+	padding-left: 20px;
+	font-size: 12px;
+	width: 300px;
+	float: left;
+	display: inline;
+}
+
+#unread_msg_other {
+	height: 28px;
+	width: 100%;
+}
+
+#unread_msg_other font {
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/message.jpg) left
+		no-repeat;
+	padding-left: 24px;
+	font-size: 12px;
+	color: #006edd;
+	width: 300px;
+	float: left;
+	display: inline;
+}
+
+#unread_exit {
+	float: right;
+	width: 20px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+
+#welcome {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 100%;
+	line-height: 34px;
+	color: #333;
+}
+
+#welcome span {
+	color: #FE4C04;
+}
+
+#maincon_l_c_r_con h3 {
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	height: 36px;
+	line-height: 36px;
+}
+
+#offers_time {
+	
+}
+
+#offers_time span {
+	font-size: 12px;
+	color: #FF4907;
+}
+
+#maincon_l_c_r_con ul li a {
+	color: #006FDB;
+	font-weight: bold;
+}
+
+#maincon_r {
+	text-align: left;
+}
+
+#maincon_r h3 {
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	height: 48px;
+	line-height: 64px;
+	overflow: hidden;
+}
+
+#maincon_r_c img {
+	margin: 5px 0px;
+}
+
+#account_money {
+	font-weight: bold;
+	color: #FE4D01;
+	font-size: 12px;
+}
+
+#sysmsg li {
+	color: gray;
+}
+
+#sysmsg li a {
+	color: gray;
+}
+
+#maincon {
+	height: auto !important;
+	height: 600px;
+	min-height: 600px;
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/acc_index_new_05.jpg);
+}
+
+#maincon_l {
+	width: 732px;
+	float: left;
+	margin-right: 8px;
+}
+
+#maincon_r {
+	width: 190px;
+	float: left;
+}
+
+#maincon_l_c {
+	width: 732px;
+}
+
+#maincon_l_c_l {
+	width: 163px;
+	float: left;
+	display: inline;
+	margin: 0px 1px;
+}
+
+#maincon_r_c {
+	padding: 0px 8px 0 10px;
+	width: 171px;
+}
+
+#maincon_r_c ul li {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_icob2.gif)
+		no-repeat scroll left 12px transparent;
+}
+
+#maincon_r_c ul li a {
+	padding-left: 10px;
+	line-height: 24px;
+	height: 24px;
+}
+
+#maincon_l_c_l h1 {
+	height: 50px;
+	line-height: 50px;
+	color: #FE4C04;
+	font-weight: bold;
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/account_index_13.jpg)
+		20px no-repeat;
+}
+
+#maincon_c_l_h1 a:link,#maincon_c_l_h1 a:visited {
+	color: #FE4C04;
+}
+
+#maincon_c_l_h1 a:hover {
+	color: #FE4C04;
+}
+
+#maincon_l_c_l h2 {
+	height: 27px;
+	width: 163px;
+	background: #CBE7FF;
+	line-height: 27px;
+	color: #333;
+	font-weight: bold;
+}
+
+#maincon_l_c_l h2 span {
+	display: block;
+	width: 118px;
+	text-align: left;
+}
+
+#maincon_l_c_l h2 span#left_title1 {
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/account_index_24.jpg)
+		20px no-repeat;
+	padding-left: 45px;
+}
+
+#maincon_l_c_l h2 span#left_title2 {
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/account_index_35.jpg)
+		20px no-repeat;
+	padding-left: 45px;
+}
+
+#maincon_l_c_l ul {
+	padding-left: 35px;
+}
+
+#maincon_l_c_l ul li {
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/index_body_24.jpg)
+		left no-repeat;
+	padding-left: 10px;
+}
+
+#maincon_l_c_l ul li strong {
+	color: #FD4B05;
+}
+
+#maincon_l_c_r {
+	float: left;
+	line-height: 26px;
+}
+
+#maincon_l_c_r_con {
+	width: 460px;
+	margin-left: 50px;
+	text-align: left;
+	padding: 5px 0px;
+}
+
+#maincon_l_c_r_con hr {
+	border: none;
+	border-bottom: 1px dashed #E0E0E0;
+	height: 1px;
+	overflow: hidden;
+}
+
+#mibao_msg {
+	height: 28px;
+	width: 100%;
+	border: 1px solid #FE5D65;
+	background: #FAEAEB;
+	margin-bottom: 5px;
+}
+
+#mibao_msg font {
+	display: block;
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/gift_03.jpg) left
+		no-repeat;
+	margin-left: 10px;
+	padding-left: 20px;
+	font-size: 12px;
+	width: 300px;
+	float: left;
+	display: inline;
+}
+
+#active_msg {
+	height: 28px;
+	width: 100%;
+	border: 1px solid #74CAFB;
+	background: #ECF7FB;
+	margin-bottom: 5px;
+}
+
+#active_msg font {
+	display: block;
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/account_index_16.jpg)
+		left no-repeat;
+	margin-left: 10px;
+	padding-left: 20px;
+	font-size: 12px;
+	float: left;
+	display: inline;
+}
+
+#active_exit {
+	float: right;
+	width: 20px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+
+#free_msg {
+	height: 28px;
+	width: 100%;
+	border: 1px solid #74CAFB;
+	background: #ECF7FB;
+	margin-bottom: 5px;
+}
+
+#free_msg font {
+	display: block;
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/account_index_16.jpg)
+		left no-repeat;
+	margin-left: 10px;
+	padding-left: 20px;
+	font-size: 12px;
+	width: 300px;
+	float: left;
+	display: inline;
+}
+
+#free_exit {
+	float: right;
+	width: 20px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+
+#email_msg {
+	height: 28px;
+	width: 100%;
+	border: 1px solid #74CAFB;
+	background: #ECF7FB;
+	margin-bottom: 5px;
+}
+
+#email_msg font {
+	display: block;
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/account_index_16.jpg)
+		left no-repeat;
+	margin-left: 10px;
+	padding-left: 20px;
+	font-size: 12px;
+	width: 300px;
+	float: left;
+	display: inline;
+}
+
+#email_exit {
+	float: right;
+	width: 20px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+
+#unread_msg {
+	height: 28px;
+	width: 100%;
+	border: 1px solid #74CAFB;
+	background: #ECF7FB;
+	margin-bottom: 5px;
+}
+
+#unread_msg font {
+	display: block;
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/account_index_16.jpg)
+		left no-repeat;
+	margin-left: 10px;
+	padding-left: 20px;
+	font-size: 12px;
+	width: 300px;
+	float: left;
+	display: inline;
+}
+
+#unread_msg_other {
+	height: 28px;
+	width: 100%;
+}
+
+#unread_msg_other font {
+	background:
+		url(http://image.uucall.cn:8180/aacall/account/image/message.jpg) left
+		no-repeat;
+	padding-left: 24px;
+	font-size: 12px;
+	color: #006edd;
+	width: 300px;
+	float: left;
+	display: inline;
+}
+
+#unread_exit {
+	float: right;
+	width: 20px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+
+#welcome {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 100%;
+	line-height: 34px;
+	color: #333;
+}
+
+#welcome span {
+	color: #FE4C04;
+}
+
+#maincon_l_c_r_con h3 {
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	height: 36px;
+	line-height: 36px;
+}
+
+#offers_time {
+	
+}
+
+#offers_time span {
+	font-size: 12px;
+	color: #FF4907;
+}
+
+#maincon_l_c_r_con ul li a {
+	color: #006FDB;
+	font-weight: bold;
+}
+
+#maincon_r {
+	text-align: left;
+}
+
+#maincon_r h3 {
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	height: 48px;
+	line-height: 64px;
+	overflow: hidden;
+}
+
+#maincon_r_c img {
+	margin: 5px 0px;
+}
+
+#account_money {
+	font-weight: bold;
+	color: #FE4D01;
+	font-size: 12px;
+}
+
+#sysmsg li {
+	color: gray;
+}
+
+#sysmsg li a {
+	color: gray;
+}
+
+@charset "utf-8";
+
+.reg-act-cont {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoc7.jpg)
+		no-repeat scroll center bottom;
+	overflow: hidden;
+	zoom: 1;
+	padding-bottom: 8px;
+	width: 930px;
+	margin: 0 auto;
+	margin-bottom: 43px;
+}
+
+.reg-act-cont h2 {
+	height: 33px;
+	margin-top: 30px;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoa1.gif)
+		no-repeat scroll center 0;
+}
+
+.reg-act-cont h5 {
+	height: 33px;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/newfree/free_icoa1.gif)
+		no-repeat scroll center 0;
+	margin: 15px 0;
+	text-indent: -9999px;
+	margin-top: 25px;
+}
+
+.reg-act-cont ul li {
+	text-align: left;
+	font-weight: bold;
+	line-height: 28px;
+	font-size: 14px;
+	color: #fe4c04;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.reg-act-cont ul li span {
+	float: left;
+	width: 448px;
+	text-align: right;
+	color: #999;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.act-xz {
+	margin-bottom: 12px;
+}
+
+.act-xz h2 {
+	height: 22px;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoa2.gif)
+		no-repeat scroll left top;
+	text-indent: -9999px;
+	margin-bottom: 15px;
+}
+
+.act-xz .free-mhbox {
+	margin-top: 70px;
+}
+
+.act-xz .free-mhbox .moact {
+	margin-top: -35px;
+}
+
+.act-xz .free-mhbox h2 {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoa2_2.gif)
+		no-repeat scroll left top;
+	text-indent: 90px;
+	text-align: left;
+	margin-bottom: 48px;
+}
+
+.act-xz .free-mhbox h2 strong {
+	color: #FF6C02;
+}
+
+.moact {
+	width: 450px;
+	height: 20px;
+	line-height: 20px;
+	padding: 10px 0px 0px 180px;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/moacttext_bg.jpg)
+		no-repeat scroll left center;
+	margin-top: -40px;
+	float: left;
+	text-align: left;
+}
+
+.act-box1 {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoc5.jpg)
+		repeat-x left top;
+	height: 212px;
+	overflow: hidden;
+}
+
+.act-b-left {
+	width: 5px;
+	height: 212px;
+	overflow: hidden;
+	display: block;
+	float: left;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoc6.jpg)
+		no-repeat left top;
+}
+
+.act-boxcont {
+	width: 920px;
+	float: left;
+}
+
+.act-b-right {
+	width: 5px;
+	height: 212px;
+	overflow: hidden;
+	display: block;
+	float: right;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoc6.jpg)
+		no-repeat -5px top;
+}
+
+.act-boxcont dl {
+	width: 452px;
+	float: left;
+	padding-top: 52px;
+}
+
+.act-boxcont dl dt {
+	text-indent: -9999px;
+	width: 270px;
+	float: right;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoa4.gif)
+		no-repeat scroll;
+	line-height: 24px;
+	margin: 3px 0 8px 0;
+}
+
+.act-boxcont dl.movact dt {
+	background-image:
+		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoa3.gif);
+}
+
+.reg-actcont,.reg-link {
+	width: 230px;
+	float: right;
+	text-align: left;
+	padding-right: 40px;
+	line-height: 18px;
+}
+
+.reg-actcont {
+	margin-bottom: 14px;
+}
+
+.reg-actpic {
+	width: 134px;
+	float: left;
+	text-align: right;
+}
+
+.act-boxcont dl.movact {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoc4.jpg)
+		no-repeat right top;
+}
+
+p.moact strong {
+	color: #FF6D00;
+}
+
+.free-m-l {
+	width: 551px;
+	float: left;
+	text-align: left;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_ico1.gif)
+		repeat-x scroll left -72px;
+}
+
+.free-m-l h3 {
+	height: 36px;
+	line-height: 36px;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_ico1.gif)
+		no-repeat scroll left 0;
+}
+
+.free-m-l h3 span {
+	width: 100%;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_ico1.gif)
+		no-repeat scroll right -36px;
+	display: block;
+	text-indent: 18px;
+}
+
+.free-m-b {
+	height: 7px;
+	overflow: hidden;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_ico2.gif)
+		no-repeat scroll;
+	display: block;
+}
+
+.free-m-box {
+	border-left: 1px solid #E0E3EA;
+	border-right: 1px solid #E0E3EA;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_icoo2.gif)
+		repeat-x left bottom;
+	overflow: hidden;
+	padding-bottom: 10px;
+	zoom: 1;
+}
+
+.freeab {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_icoa1.jpg)
+		no-repeat center center;
+	border-bottom: 1px #C2C2C2 dashed;
+	width: 502px;
+	height: 91px;
+	margin: 0 auto;
+	text-indent: -9999px;
+	margin-bottom: 24px;
+}
+
+.freecard {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/freecard.jpg)
+		no-repeat center center;
+	border-bottom: 1px #C2C2C2 dashed;
+	width: 502px;
+	height: 91px;
+	margin: 0 auto;
+	text-indent: -9999px;
+	margin-bottom: 24px;
+}
+
+.free-m-box ul {
+	width: 502px;
+	margin: 0 auto;
+}
+
+.free-nots {
+	overflow: hidden;
+}
+
+.free-nots li {
+	hieght: 24px;
+	float: left;
+	width: 502px;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_icodi.gif)
+		no-repeat 24px 9px;
+	text-indent: 35px;
+	color: #333;
+}
+
+ul.free2-n {
+	margin: 64px 0 10px 0;
+}
+
+.free2-n li {
+	text-indent: 160px;
+	background-position: 150px 9px;
+}
+
+.free-from li {
+	height: 35px;
+	float: left;
+	text-indent: 30px;
+	width: 502px;
+	padding: 5px 0 15px 0;
+	font-size: 14px;
+	color: #333;
+}
+
+.free-from li input.go-up {
+	margin-left: 100px;
+}
+
+ul.freef-n li {
+	text-indent: 120px;
+}
+
+.go-up,.draw-free,.draw-free2 {
+	width: 127px;
+	height: 41px;
+	overflow: hidden;
+	border: none;
+	text-indent: -9999px;
+	display: inline;
+	float: left;
+	margin-left: 40px;
+	cursor: pointer;
+}
+
+.go-up {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_ico3.gif)
+		no-repeat scroll;
+}
+
+.draw-free {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_ico4.gif)
+		no-repeat scroll;
+}
+
+.draw-free2 {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_ico5.gif)
+		no-repeat scroll;
+	margin-left: 200px;
+}
+
+.free-m-r {
+	width: 313px;
+	text-align: left;
+	float: right;
+}
+
+.free-m-r li {
+	list-style: decimal;
+}
+
+.free-m-r h3 {
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 8px;
+}
+
+.free-m-box .free-s {
+	margin: 0 0 0 52px;
+	display: inline;
+	clear: both;
+	width: 405px;
+}
+
+.free-stop {
+	border: 1px #fff solid;
+	background-color: #FFF;
+	width: 400px;
+	height: 60px;
+	background-position: 60px -560px;
+	font-size: 14px;
+	padding: 40px 0 0 100px;
+}
+
+.pic-free li {
+	margin-top: 12px;
+	display: block;
+}
+
+.freeby {
+	height: auto;
+	overflow: hidden;
+	zoom: 1;
+	text-indent: 0em;
+	background: none;
+}
+
+.freeby span {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.freeby strong {
+	color: #FF6D00;
+}
+
+.freeby acronym {
+	font-size: 12px;
+	color: #999;
+}
+
+.crabs {
+	background-position: 60px -457px;
+}
+
+.free-p1 {
+	text-align: right;
+	padding-top: 60px;
+	width: 530px;
+	clear: both;
+}
+
+.fee-box1,.fee-box2 {
+	width: 930px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.fee-box1 {
+	height: 226px;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_icob4.jpg)
+		no-repeat scroll;
+	overflow: hidden;
+	margin-bottom: 36px;
+}
+
+.fee-lookup {
+	width: 485px;
+	height: 130px;
+	overflow: hidden;
+	margin: 92px 0 0 47px;
+}
+
+.fee-lookup label {
+	font-family: Tahoma, SimSun, Arial;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.fee-lookup label input {
+	vertical-align: middle;
+}
+
+.fee-pt {
+	line-height: 55px;
+}
+
+.fee-b-left {
+	width: 655px;
+	float: left;
+}
+
+.fee-b-right {
+	width: 240px;
+	float: right;
+}
+
+.fee-list {
+	display: block;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_icob3bg.gif)
+		repeat-x left top;
+	height: 28px;
+	padding: 2px 0 0 47px;
+}
+
+.fee-list li {
+	width: 88px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	float: left;
+	color: #0070DE;
+	font-weight: bold;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.fee-list li.feexz {
+	width: 86px;
+	height: 26px;
+	border: #5CBCF9 solid 1px;
+	border-bottom-color: #fff;
+	line-height: 26px;
+	background-color: #fff;
+	color: #FC4B05;
+}
+
+.fee-table {
+	width: 649px;
+}
+
+.fee-table td,.fee-table th {
+	line-height: 44px;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_icob3bg2.gif)
+		repeat-x left bottom;
+}
+
+.fee-table th {
+	color: #333;
+	line-height: 56px;
+	padding-top: 5px;
+}
+
+.fee-cx h3 {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_icob1.gif)
+		no-repeat scroll left bottom;
+	font-size: 14px;
+	font-weight: bold;
+	height: 29px;
+	color: #333;
+}
+
+.fee-cx ul li {
+	line-height: 30px;
+	height: 30px;
+	float: left;
+	width: 240px;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_icob2.gif)
+		no-repeat scroll left 14px;
+	overflow: hidden;
+}
+
+.fee-cx ul li a {
+	padding-left: 10px;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.fee-cx ul {
+	display: block;
+	margin: 11px 0;
+	overflow: hidden;
+}
+
+.fee-cx {
+	clear: both;
+	overflow: hidden;
+}
+
+.sen {
+	display: block;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_icob3.gif)
+		no-repeat scroll 18px 15px;
+	color: #FE6D02;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 3em;
+}
+
+.navsub {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_sub.gif)
+		no-repeat scroll 0 0;
+	border: none;
+	width: 55px;
+	height: 26px;
+	text-indent: -9999px;
+	display: inline;
+	margin-left: 28px;
+	cursor: pointer;
+}
+
+.fee-lookup input {
+	vertical-align: top;
+}
+
+.fee-rf {
+	width: 100%;
+	height: 25px;
+	background-color: #EBF4FD;
+}
+
+.fee-rf h3,.fee-rf span,.fee-rf a {
+	float: left;
+	display: block;
+	line-height: 25px;
+}
+
+.fee-rf h3 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #333;
+	padding-left: 43px;
+}
+
+.fee-rf span {
+	padding-left: 28px;
+}
+
+.fee-rf span strong {
+	color: #FF6B02;
+}
+
+.fee-rf a {
+	float: right;
+	color: #006FDD;
+	padding-right: 6px;
+}
+
+.result-tab {
+	clear: both;
+	width: 649px;
+}
+
+.result-tab th,.result-tab td {
+	line-height: 28px;
+}
+
+.fee-result {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/free_icob3bg2.gif)
+		repeat-x left bottom;
+	overflow: hidden;
+	zoom: 1;
+	margin-bottom: 28px;
+}
+
+.boxabc {
+	text-align: center;
+	margin-top: 24px;
+}
+
+#boxfee1 .boxabc a {
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+	padding-right: 6px;
+}
+
+.wzhl {
+	text-align: center;
+	line-height: 35px;
+}
+
+#fee-queryresult dd,#full-result dd {
+	width: 216px;
+	float: left;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+
+.free-ol li {
+	padding: 0 15px 0 0;
+	color: #666;
+	text-align: center;
+	background: #E4E4E4
+		url(http://image.uucall.cn:8180/aacall/website/image/flow_steps_bg.png)
+		no-repeat scroll 100% 0;
+	font-size: 14px;
+	font-weight: bold;
+	height: 23px;
+	line-height: 23px;
+	overflow: hidden;
+	float: left;
+}
+
+.free-ol .num3 li {
+	width: 295px;
+}
+
+.free-ol li.current {
+	background-color: #E4E4E4;
+	width: 295px;
+}
+
+.free-ol li.current .first {
+	background: #E4E4E4
+		url(http://image.uucall.cn:8180/aacall/website/image/flow_steps_bg.png)
+		no-repeat scroll -12px -69px;
+}
+
+.free-ol li.last {
+	background-position: 100% -138px;
+	width: 295px;
+}
+
+.free-ol li span,.free-ol li strong {
+	display: block;
+}
+
+.free-ol li strong {
+	font-weight: normal;
+}
+
+.free-ol li.current .free-tpy {
+	background-color: #0EABF8;
+	font-weight: normal;
+	color: #fff;
+	background-position: -12px -92px;
+}
+
+.free-ol li .free-tpy2 {
+	background-color: #0EABF8;
+	font-weight: normal;
+	color: #fff;
+}
+
+.free-m-wrap {
+	margin: 28px 0 20px 0;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#navList a.top_banner_on4 {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/index_top_bg.gif)
+		left -50px no-repeat;
+	color: #008EDA;
+}
+
+#navList a.top_banner_on4:hover {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/index_top_bg.gif)
+		left -50px no-repeat;
+}
+
+#navList a.top_banner_on4:link,#navList a.top_banner_on4:visited,#navList a.top_banner_on4:hover
+	{
+	color: #008EDA;
+}
+
+.news-box {
+	height: 14px;
+	overflow: hidden;
+	line-height: 14px;
+	width: 930px;
+	margin: 0 auto;
+	margin-bottom: 7px;
+}
+
+.news-box h3 {
+	float: left;
+	font-weight: bold;
+	margin-right: 5px;
+	height: 14px;
+	line-height: 14px;
+}
+
+.news-box .news-list-c {
+	float: left;
+	width: 830px;
+	height: 14px;
+	line-height: 14px;
+}
+
+.news-box .news-list-c ul li {
+	float: left;
+	white-space: nowrap;
+	margin-right: 46px;
+	height: 14px;
+	line-height: 14px;
+}
+
+#fee-queryresult dd,#full-result dd {
+	background: transparent
+		url(http://image.uucall.cn:8180/aacall/website/image/free_icob3bg2.gif)
+		repeat-x scroll left bottom;
+}
+
+body #footer {
+	margin-top: 40px;
+}
+
+#wait {
+	margin-left: 135px;
+}
+
+#wait img {
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+#getcodebg {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/newfree/getcode_bg.jpg)
+		no-repeat;
+	border: none;
+	width: 107px;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+}
+
+.reg-act-cont .freetitle {
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+}
+
+.reg-act-cont .freetitle span {
+	font-weight: bold;
+	color: #FF5500;
+	padding: 0 5px;
+}
+
+.reg-act-cont ul {
+	padding: 25px 0px 0px 0px;
+	height: 100px;
+}
+
+.reg-act-cont .freeimg {
+	width: 100%;
+}
+
+.reg-act-cont .freeimg img {
+	margin: 0 15px;
+}
+
+.freeguide {
+	width: 810px;
+	text-align: center;
+	margin: 30px auto;
+}
+
+.freeguide dd {
+	float: left;
+	width: 212px;
+	height: 97px;
+	padding: 10px;
+	background: #f9fbfa;
+	margin: 0 15px;
+	display: inline;
+	border: 1px solid #e1e4e9;
+}
+
+.newfree-m-r {
+	width: 800px;
+	text-align: left;
+	float: left;
+	margin: 30px 0 0 25px;
+	display: inline;
+}
+
+.newfree-m-r li {
+	list-style: decimal;
+}
+
+.newfree-m-r h3 {
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 8px;
+}
+
+.reg-act-cont h4 {
+	height: 33px;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/newfree/free_icoa2.gif)
+		no-repeat scroll center 0;
+	margin: 15px 0;
+	text-indent: -9999px;
+	margin-top: 25px;
+}
+
+.tfield {
+	width: 370px;
+	height: 265px;
+	_height: 275px;
+	border: 5px solid #2eb7fb;
+	text-align: left;
+	font-size: 13px;
+	background-color: #fff;
+	z-index: 9999;
+	left: 50%;
+	top: 50%;
+	margin-left: -185px !important;
+	margin-top: -132px !important;
+	margin-top: 0px;
+	position: fixed !important;
+	position: absolute;
+	_top: expression(eval(document.documentElement.scrollTop +
+		document.documentElement.clientHeight-this.offsetHeight- ( parseInt(this.currentStyle.marginTop
+		, 10) || 300 ) -( parseInt(this.currentStyle.marginBottom, 10) || 0 )
+		) )
+}
+
+.tfield h6 {
+	width: 100%;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	font-weight: bold;
+	background: #2fb6f8;
+	margin: 0;
+	padding: 0;
+}
+
+.tfield h6 span {
+	padding-left: 10px;
+	color: #fff;
+	float: left;
+}
+
+.tfield h6 a:link,.tfield h6 a:visited {
+	float: right;
+	margin-right: 10px;
+	display: inline;
+	color: #bae4f4;
+	text-decoration: none;
+}
+
+.tfield h6 a:hover {
+	color: #fff;
+}
+
+.tfield .toptips {
+	width: 185px;
+	float: left;
+	height: 48px;
+	float: left;
+	margin: 15px 0 0 25px;
+	display: inline;
+	padding: 8px 10px 2px 23px;
+	overflow: hidden;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/msg_bg.png)
+		no-repeat scroll 3px -142px transparent;
+	color: #999;
+}
+
+.input {
+	width: 80%;
+	padding-left: 25px;
+	height: 30px;
+}
+
+.input label {
+	color: #666;
+}
+
+.input label font {
+	color: #F00;
+}
+
+.msg {
+	width: 60%;
+	padding-left: 105px;
+	height: 40px;
+	_margin-top: 15px;
+	line-height: 12px;
+}
+
+.msg .attention {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/msg_bg.png)
+		no-repeat scroll 0 0 transparent;
+	color: #404040;
+	float: left;
+	padding: 2px 10px 2px 23px;
+	margin: 12px 0;
+}
+
+.msg .error {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/msg_bg.png)
+		no-repeat scroll 0 0 transparent;
+	color: #404040;
+	float: left;
+	padding: 2px 10px 2px 23px;
+	border: none;
+	margin: 12px 0;
+}
+
+.msg .ok {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/msg_bg.png)
+		no-repeat scroll 3px -247px transparent;
+	padding: 2px 10px 2px 23px;
+	height: 18px;
+	line-height: 18px;
+	margin: 12px 0;
+}
+
+#U_UserName {
+	width: 186px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #DDDDDD;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/input.gif) repeat
+		scroll 0 0 #FFF;
+	color: #666;
+	padding-left: 5px;
+}
+
+.left {
+	float: left;
+}
+
+.boxbtn {
+	margin-left: 55px;
+	width: 290px;
+	height: 42px;
+	display: inline;
+	text-align: left;
+}
+
+.boxbtn dd {
+	width: 145px;
+	height: 42px;
+	float: left;
+	margin: 0px;
+}
+
+.boxbtn dd input {
+	width: 120px;
+	height: 42px;
+	text-indent: -9999;
+	border: none;
+	cursor: pointer;
+}
+
+.boxbtn dd .buttonsub {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/newfree/define_btn.jpg)
+		no-repeat;
+}
+
+.boxbtn dd .buttonreset {
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/newfree/cancel_btn.jpg)
+		no-repeat;
+}
+
+.field {
+	float: left;
+}
+
+#PasswordField  .toptips {
+	width: 285px;
+	float: left;
+	height: 48px;
+	float: left;
+	margin: 15px 0 0 25px;
+	display: inline;
+	padding: 8px 10px 2px 23px;
+	overflow: hidden;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/msg_bg.png)
+		no-repeat scroll 3px -142px transparent;
+	color: #999;
+}
+
+.passwordfield1 {
+	width: 100%;
+	height: 40px;
+}
+
+.passwordfield2 {
+	width: 100%;
+	height: 50px;
+}
+
+.passwordfield1 input,.passwordfield2 input {
+	width: 186px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #DDDDDD;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/input.gif) repeat
+		scroll 0 0 #FFF;
+	color: #666;
+	padding-left: 5px;
+}
+
+#PasswordField p {
+	margin: 0 auto;
+	line-height: 12px;
+}
+
+#PasswordField .msg {
+	margin: 5 0 0 15px;
+	display: inline;
+}
+
+.passwordfield1 .input,.passwordfield2 .input {
+	width: 80%;
+	padding-left: 25px;
+	height: 30px;
+}
+
+.passwordfield1 label,.passwordfield2 label {
+	width: 80px;
+	text-align: right;
+	display: block;
+	float: left;
+	line-height: 24px;
+}
+
+#headerfree {
+	background:
+		url("http://image.uucall.cn:8180/aacall/account/image/login/login_07.jpg")
+		repeat-x scroll left 75px transparent;
+	height: 85px;
+	margin: 0 auto 10px;
+	width: 930px;
+}
+
+#maincon .freecont {
+	background:
+		url("http://image.uucall.cn:8180/aacall/website/image/newfree/freelogin_bg.jpg")
+		no-repeat;
+	height: 311px;
+	margin: 35px auto;
+	text-align: center;
+	width: 932px;
+}
+
+.noreguser {
+	width: 455px;
+	height: 295px;
+	float: left;
+}
+
+.noreguser p {
+	width: 100%;
+	margin: 100px auto 0 0;
+	text-align: center;
+}
+
+.noreguser p .usernofree {
+	color: #000;
+}
+
+.noreguser p .usernofree span {
+	color: #FF5500;
+	font-weight: bold;
+	padding: 0 8px;
+}
+
+#loginzone {
+	width: 455px;
+	height: 295px;
+	float: left;
+}
+
+.loginta {
+	margin: 65px 0 0 100px;
+	float: left;
+	display: inline;
+	text-align: center;
+}
+
+.loginta tr td {
+	height: 35px;
+	overflow: hidden;
+	padding: 0;
+	text-align: left;
+}
+
+.loginta tr td font {
+	height: 35px;
+	line-height: 35px;
+	float: left;
+}
+
+.loginta tr td span {
+	background:
+		url("http://image.uucall.cn:8180/aacall/account/image/login/login_06.jpg")
+		no-repeat scroll left center transparent;
+	color: #FD7835;
+	display: block;
+	height: 24px;
+	line-height: 24px;
+	margin-left: 65px;
+	padding-left: 20px;
+	text-align: left;
+	width: 250px;
+}
+
+.loginta strong {
+	color: #666;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 26px;
+}
+
+#username,#password {
+	border: 1px solid #A7A6AB;
+	font-size: 16px;
+	height: 20px;
+	padding: 4px;
+	line-height: 20px;
+	width: 195px;
+	background:
+		url("http://image.uucall.cn:8180/aacall/website/image/input.gif")
+		repeat #FFFFFF;
+}
+
+.tfield .backbox {
+	text-align: left;
+	float: left;
+	margin: 35px 0 0 10px;
+	display: inline;
+	padding-left: 90px;
+}
+
+.tfield .backbox1 {
+	width: 255px;
+	height: 160px;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/newfree/backbox_icon1.jpg)
+		no-repeat left top;
+	margin: 35px 0 0 10px;
+}
+
+.tfield .backbox2 {
+	width: 205px;
+	height: 160px;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/newfree/backbox_icon3.jpg)
+		no-repeat left top;
+	margin: 35px 0 0 50px;
+}
+
+.tfield .backbox3 {
+	width: 205px;
+	height: 160px;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/newfree/backbox_icon1.jpg)
+		no-repeat left top;
+	margin: 35px 0 0 50px;
+}
+
+.tfield .backbox4 {
+	width: 205px;
+	height: 160px;
+	background:
+		url(http://image.uucall.cn:8180/aacall/website/image/newfree/backbox_icon3.jpg)
+		no-repeat left top;
+	margin: 35px 0 0 50px;
+}
+
+.tfield .backbox b {
+	font-size: 14px;
+	color: #FF5500;
+	line-height: 24px;
+}
+
+.tfield .backbox span {
+	color: #999;
+	line-height: 20px;
+}
+
+.tfield .backbox span a {
+	color: #0170dc;
+	text-decoration: none;
+}
+
+.tfield .backbox1 img {
+	border: none;
+	margin: 20px 0 0 15px;
+	display: inline;
+}
+
+.tfield .backbox2 img,.tfield .backbox3 img,.tfield .backbox4 img {
+	border: none;
+	margin: 40px 0 0 -15px;
+	display: inline;
+}
+
+.index_my_rate {
+	width: 460px;
+	height: 169px;
+	border: 1px #ede5ce solid;
+	margin-bottom: 15px;
+}
+
+.index_my_rate dl {
+	margin: 0px 0px;
+}
+
+.index_my_rate dt,.index_my_rate dd {
+	margin: 0px;
+	float: left;
+	text-align: center;
+	width: 115px;
+	height: 33px;
+	line-height: 33px;
+	border-bottom: 1px #ede5ce solid;
+	color: #9f8e5a;
+}
+
+.index_my_rate dt {
+	background-color: #FFFDF6;
+}
+
+.index_my_rate .dd_red {
+	color: #fd4a07;
+}
+
+.index_my_rate dt {
+	font-weight: bold;
+}
+
+.index_my_rate .last_dd_1 {
+	width: 230px;
+	border-bottom: 0px none;
+	font-weight: 100;
+	background: #FFFDF6
+		url(http://image.uucall.cn:8180/aacall/website/image/my_rate1.gif)
+		no-repeat scroll 45px 7px;
+}
+
+.index_my_rate .last_dd_2 {
+	width: 230px;
+	border-bottom: 0px none;
+	font-weight: 100;
+	background: #FFFDF6
+		url(http://image.uucall.cn:8180/aacall/website/image/my_rate2.gif)
+		no-repeat scroll 50px 7px;
+}
