@@ -1,8 +1,8 @@
 <?php
-session_start();
-
 include_once 'inc/config.php';
 include_once 'inc/TYauth.php';
+
+session_start();
 
 $o = new TYAuthV2(APP_ID, APP_SECRET);
 
@@ -20,9 +20,9 @@ if ($_REQUEST['code']) {
 	}
 }
 
-if (isset($_SESSION['ty_token']) && $_SESSION['ty_token']['access_token']) {
+/*if (isset($_SESSION['ty_token']) && $_SESSION['ty_token']['access_token']) {
 	header('location:/');
 } else {
 	header('location:/login.php');
 }
-
+*/
