@@ -1,0 +1,130 @@
+html body {
+	width: auto;
+}
+
+#header {
+	margin: 0 auto 10px;
+	width: 930px;
+}
+
+#footer {
+	margin: 0 auto;
+	width: 930px;
+}
+
+.miniWin_mask {
+	background-color: #CCCCCC;
+	display: none;
+	left: 0;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	z-index: 9999;
+}
+
+.miniWin_win {
+	display: none;
+	height: 430px;
+	position: absolute;
+	width: 400px;
+	z-index: 10000;
+}
+
+#loginzone table td {
+	line-height: 14px;
+	vertical-align: top;
+}
+
+#loginzone table td * {
+	vertical-align: top;
+}
+
+#maincon {
+	width: 880px;
+	text-align: center;
+	margin: 0px auto;
+	height: 480px;
+	background: url(/images/login_11.jpg) no-repeat left 100px;
+}
+
+#loginzone {
+	background: url(/images/login_04.jpg);
+	width: 380px;
+	height: 361px;
+	overflow: hidden;
+	margin-top: 56px;
+	display: inline;
+	float: left;
+	margin-left: 380px;
+}
+
+table {
+	text-align: center;
+	margin: 0px auto;
+	margin-top: 70px;
+	margin-bottom: 15px;
+}
+
+td {
+	text-align: left;
+}
+
+td span {
+	background: url(/images/login_06.jpg) left no-repeat;
+	padding-left: 20px;
+	height: 24px;
+	display: block;
+	line-height: 24px;
+	width: 250px;
+	text-align: left;
+	color: #FD7835;
+	margin-left: 45px;
+}
+
+input {
+	line-height: 24px;
+}
+
+td.tdcenter {
+	text-align: center;
+}
+
+table strong {
+	font-weight: normal;
+	font-size: 14px;
+	color: #333;
+	line-height: 26px;
+}
+
+#username,#password {
+	width: 180px;
+	height: 24px;
+	border: 1px solid #A7A6AB;
+	font-size: 16px;
+}
+
+#verificode {
+	width: 77px;
+	height: 24px;
+	border: 1px solid #A7A6AB;
+	font-size: 16px;
+}
+
+#header {
+	background: url(/images/login_07.jpg) repeat-x left 95px;
+	height: 105px;
+}
+
+#top_r_t {
+	margin-top: 20px;
+}
+
+#very_td * {
+	vertical-align: middle;
+}
+
+.loginta tr td {
+	height: 35px;
+	overflow: hidden;
+	padding: 0px;
+}
