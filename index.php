@@ -2,11 +2,11 @@
 session_start ();
 
 var_dump($_SESSION);
-/*if (isset ( $_SESSION ['login'] ) && $_SESSION ['login']) {
+if (isset ( $_SESSION ['login'] ) && !empty($_SESSION ['login'])) {
 
 } else {
 	header ( 'location:/login.php' );
-}*/
+}
 
 ?>
 
