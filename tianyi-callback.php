@@ -14,6 +14,7 @@ if ($_REQUEST['code']) {
 	try {
 		$token = $o->getAccessToken( 'code', $keys ) ;
 		$_SESSION['ty_token'] = $token;
+		$_SESSION['login'] = "天翼用户_". $token['open_id'];
 	} catch (Exception $e) {
 		
 	}
