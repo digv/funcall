@@ -3,7 +3,7 @@
 	height: 600px;
 	min-height: 600px;
 	background:
-		url(http://image.uucall.cn:8180/aacall/account/image/acc_index_new_05.jpg);
+		url(/images/acc_index_new_05.jpg);
 }
 
 #maincon_l {
@@ -35,7 +35,7 @@
 
 #maincon_r_c ul li {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_icob2.gif)
+		url(/images/free_icob2.gif)
 		no-repeat scroll left 12px transparent;
 }
 
@@ -51,7 +51,7 @@
 	color: #FE4C04;
 	font-weight: bold;
 	background:
-		url(http://image.uucall.cn:8180/aacall/account/image/account_index_13.jpg)
+		url(/images/account_index_13.jpg)
 		20px no-repeat;
 }
 
@@ -80,14 +80,14 @@
 
 #maincon_l_c_l h2 span#left_title1 {
 	background:
-		url(http://image.uucall.cn:8180/aacall/account/image/account_index_24.jpg)
+		url(/images/account_index_24.jpg)
 		20px no-repeat;
 	padding-left: 45px;
 }
 
 #maincon_l_c_l h2 span#left_title2 {
 	background:
-		url(http://image.uucall.cn:8180/aacall/account/image/account_index_35.jpg)
+		url(/images/account_index_35.jpg)
 		20px no-repeat;
 	padding-left: 45px;
 }
@@ -101,7 +101,7 @@
 	line-height: 30px;
 	text-align: left;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/index_body_24.jpg)
+		url(/images/index_body_24.jpg)
 		left no-repeat;
 	padding-left: 10px;
 }
@@ -140,7 +140,7 @@
 #mibao_msg font {
 	display: block;
 	background:
-		url(http://image.uucall.cn:8180/aacall/account/image/gift_03.jpg) left
+		url(/images/gift_03.jpg) left
 		no-repeat;
 	margin-left: 10px;
 	padding-left: 20px;
@@ -161,7 +161,7 @@
 #active_msg font {
 	display: block;
 	background:
-		url(http://image.uucall.cn:8180/aacall/account/image/account_index_16.jpg)
+		url(/images/account_index_16.jpg)
 		left no-repeat;
 	margin-left: 10px;
 	padding-left: 20px;
@@ -188,7 +188,7 @@
 #free_msg font {
 	display: block;
 	background:
-		url(http://image.uucall.cn:8180/aacall/account/image/account_index_16.jpg)
+		url(/images/account_index_16.jpg)
 		left no-repeat;
 	margin-left: 10px;
 	padding-left: 20px;
@@ -216,7 +216,7 @@
 #email_msg font {
 	display: block;
 	background:
-		url(http://image.uucall.cn:8180/aacall/account/image/account_index_16.jpg)
+		url(/images/account_index_16.jpg)
 		left no-repeat;
 	margin-left: 10px;
 	padding-left: 20px;
@@ -244,7 +244,7 @@
 #unread_msg font {
 	display: block;
 	background:
-		url(http://image.uucall.cn:8180/aacall/account/image/account_index_16.jpg)
+		url(/images/account_index_16.jpg)
 		left no-repeat;
 	margin-left: 10px;
 	padding-left: 20px;
@@ -261,7 +261,7 @@
 
 #unread_msg_other font {
 	background:
-		url(http://image.uucall.cn:8180/aacall/account/image/message.jpg) left
+		url(/images/message.jpg) left
 		no-repeat;
 	padding-left: 24px;
 	font-size: 12px;
@@ -348,7 +348,7 @@
 
 .reg-act-cont {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoc7.jpg)
+		url(/images/reg_icoc7.jpg)
 		no-repeat scroll center bottom;
 	overflow: hidden;
 	zoom: 1;
@@ -362,14 +362,14 @@
 	height: 33px;
 	margin-top: 30px;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoa1.gif)
+		url(/images/reg_icoa1.gif)
 		no-repeat scroll center 0;
 }
 
 .reg-act-cont h5 {
 	height: 33px;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/newfree/free_icoa1.gif)
+		url(/images/newfree/free_icoa1.gif)
 		no-repeat scroll center 0;
 	margin: 15px 0;
 	text-indent: -9999px;
@@ -401,7 +401,7 @@
 .act-xz h2 {
 	height: 22px;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoa2.gif)
+		url(/images/reg_icoa2.gif)
 		no-repeat scroll left top;
 	text-indent: -9999px;
 	margin-bottom: 15px;
@@ -417,7 +417,7 @@
 
 .act-xz .free-mhbox h2 {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoa2_2.gif)
+		url(/images/reg_icoa2_2.gif)
 		no-repeat scroll left top;
 	text-indent: 90px;
 	text-align: left;
@@ -434,7 +434,7 @@
 	line-height: 20px;
 	padding: 10px 0px 0px 180px;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/moacttext_bg.jpg)
+		url(/images/moacttext_bg.jpg)
 		no-repeat scroll left center;
 	margin-top: -40px;
 	float: left;
@@ -443,7 +443,7 @@
 
 .act-box1 {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoc5.jpg)
+		url(/images/reg_icoc5.jpg)
 		repeat-x left top;
 	height: 212px;
 	overflow: hidden;
@@ -456,7 +456,7 @@
 	display: block;
 	float: left;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoc6.jpg)
+		url(/images/reg_icoc6.jpg)
 		no-repeat left top;
 }
 
@@ -472,7 +472,7 @@
 	display: block;
 	float: right;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoc6.jpg)
+		url(/images/reg_icoc6.jpg)
 		no-repeat -5px top;
 }
 
@@ -487,7 +487,7 @@
 	width: 270px;
 	float: right;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoa4.gif)
+		url(/images/reg_icoa4.gif)
 		no-repeat scroll;
 	line-height: 24px;
 	margin: 3px 0 8px 0;
@@ -495,7 +495,7 @@
 
 .act-boxcont dl.movact dt {
 	background-image:
-		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoa3.gif);
+		url(/images/reg_icoa3.gif);
 }
 
 .reg-actcont,.reg-link {
@@ -518,7 +518,7 @@
 
 .act-boxcont dl.movact {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/reg_icoc4.jpg)
+		url(/images/reg_icoc4.jpg)
 		no-repeat right top;
 }
 
@@ -531,7 +531,7 @@ p.moact strong {
 	float: left;
 	text-align: left;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_ico1.gif)
+		url(/images/free_ico1.gif)
 		repeat-x scroll left -72px;
 }
 
@@ -539,14 +539,14 @@ p.moact strong {
 	height: 36px;
 	line-height: 36px;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_ico1.gif)
+		url(/images/free_ico1.gif)
 		no-repeat scroll left 0;
 }
 
 .free-m-l h3 span {
 	width: 100%;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_ico1.gif)
+		url(/images/free_ico1.gif)
 		no-repeat scroll right -36px;
 	display: block;
 	text-indent: 18px;
@@ -556,7 +556,7 @@ p.moact strong {
 	height: 7px;
 	overflow: hidden;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_ico2.gif)
+		url(/images/free_ico2.gif)
 		no-repeat scroll;
 	display: block;
 }
@@ -565,7 +565,7 @@ p.moact strong {
 	border-left: 1px solid #E0E3EA;
 	border-right: 1px solid #E0E3EA;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_icoo2.gif)
+		url(/images/free_icoo2.gif)
 		repeat-x left bottom;
 	overflow: hidden;
 	padding-bottom: 10px;
@@ -574,7 +574,7 @@ p.moact strong {
 
 .freeab {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_icoa1.jpg)
+		url(/images/free_icoa1.jpg)
 		no-repeat center center;
 	border-bottom: 1px #C2C2C2 dashed;
 	width: 502px;
@@ -586,7 +586,7 @@ p.moact strong {
 
 .freecard {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/freecard.jpg)
+		url(/images/freecard.jpg)
 		no-repeat center center;
 	border-bottom: 1px #C2C2C2 dashed;
 	width: 502px;
@@ -610,7 +610,7 @@ p.moact strong {
 	float: left;
 	width: 502px;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_icodi.gif)
+		url(/images/free_icodi.gif)
 		no-repeat 24px 9px;
 	text-indent: 35px;
 	color: #333;
@@ -657,19 +657,19 @@ ul.freef-n li {
 
 .go-up {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_ico3.gif)
+		url(/images/free_ico3.gif)
 		no-repeat scroll;
 }
 
 .draw-free {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_ico4.gif)
+		url(/images/free_ico4.gif)
 		no-repeat scroll;
 }
 
 .draw-free2 {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_ico5.gif)
+		url(/images/free_ico5.gif)
 		no-repeat scroll;
 	margin-left: 200px;
 }
@@ -755,7 +755,7 @@ ul.freef-n li {
 .fee-box1 {
 	height: 226px;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_icob4.jpg)
+		url(/images/free_icob4.jpg)
 		no-repeat scroll;
 	overflow: hidden;
 	margin-bottom: 36px;
@@ -795,7 +795,7 @@ ul.freef-n li {
 .fee-list {
 	display: block;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_icob3bg.gif)
+		url(/images/free_icob3bg.gif)
 		repeat-x left top;
 	height: 28px;
 	padding: 2px 0 0 47px;
@@ -830,7 +830,7 @@ ul.freef-n li {
 .fee-table td,.fee-table th {
 	line-height: 44px;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_icob3bg2.gif)
+		url(/images/free_icob3bg2.gif)
 		repeat-x left bottom;
 }
 
@@ -842,7 +842,7 @@ ul.freef-n li {
 
 .fee-cx h3 {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_icob1.gif)
+		url(/images/free_icob1.gif)
 		no-repeat scroll left bottom;
 	font-size: 14px;
 	font-weight: bold;
@@ -856,7 +856,7 @@ ul.freef-n li {
 	float: left;
 	width: 240px;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_icob2.gif)
+		url(/images/free_icob2.gif)
 		no-repeat scroll left 14px;
 	overflow: hidden;
 }
@@ -881,7 +881,7 @@ ul.freef-n li {
 .sen {
 	display: block;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_icob3.gif)
+		url(/images/free_icob3.gif)
 		no-repeat scroll 18px 15px;
 	color: #FE6D02;
 	font-weight: bold;
@@ -891,7 +891,7 @@ ul.freef-n li {
 
 .navsub {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_sub.gif)
+		url(/images/free_sub.gif)
 		no-repeat scroll 0 0;
 	border: none;
 	width: 55px;
@@ -950,7 +950,7 @@ ul.freef-n li {
 
 .fee-result {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/free_icob3bg2.gif)
+		url(/images/free_icob3bg2.gif)
 		repeat-x left bottom;
 	overflow: hidden;
 	zoom: 1;
@@ -987,7 +987,7 @@ ul.freef-n li {
 	color: #666;
 	text-align: center;
 	background: #E4E4E4
-		url(http://image.uucall.cn:8180/aacall/website/image/flow_steps_bg.png)
+		url(/images/flow_steps_bg.png)
 		no-repeat scroll 100% 0;
 	font-size: 14px;
 	font-weight: bold;
@@ -1008,7 +1008,7 @@ ul.freef-n li {
 
 .free-ol li.current .first {
 	background: #E4E4E4
-		url(http://image.uucall.cn:8180/aacall/website/image/flow_steps_bg.png)
+		url(/images/flow_steps_bg.png)
 		no-repeat scroll -12px -69px;
 }
 
@@ -1046,14 +1046,14 @@ ul.freef-n li {
 
 #navList a.top_banner_on4 {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/index_top_bg.gif)
+		url(/images/index_top_bg.gif)
 		left -50px no-repeat;
 	color: #008EDA;
 }
 
 #navList a.top_banner_on4:hover {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/index_top_bg.gif)
+		url(/images/index_top_bg.gif)
 		left -50px no-repeat;
 }
 
@@ -1096,7 +1096,7 @@ ul.freef-n li {
 
 #fee-queryresult dd,#full-result dd {
 	background: transparent
-		url(http://image.uucall.cn:8180/aacall/website/image/free_icob3bg2.gif)
+		url(/images/free_icob3bg2.gif)
 		repeat-x scroll left bottom;
 }
 
@@ -1115,7 +1115,7 @@ body #footer {
 
 #getcodebg {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/newfree/getcode_bg.jpg)
+		url(/images/newfree/getcode_bg.jpg)
 		no-repeat;
 	border: none;
 	width: 107px;
@@ -1189,7 +1189,7 @@ body #footer {
 .reg-act-cont h4 {
 	height: 33px;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/newfree/free_icoa2.gif)
+		url(/images/newfree/free_icoa2.gif)
 		no-repeat scroll center 0;
 	margin: 15px 0;
 	text-indent: -9999px;
@@ -1258,7 +1258,7 @@ body #footer {
 	padding: 8px 10px 2px 23px;
 	overflow: hidden;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/msg_bg.png)
+		url(/images/msg_bg.png)
 		no-repeat scroll 3px -142px transparent;
 	color: #999;
 }
@@ -1287,7 +1287,7 @@ body #footer {
 
 .msg .attention {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/msg_bg.png)
+		url(/images/msg_bg.png)
 		no-repeat scroll 0 0 transparent;
 	color: #404040;
 	float: left;
@@ -1297,7 +1297,7 @@ body #footer {
 
 .msg .error {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/msg_bg.png)
+		url(/images/msg_bg.png)
 		no-repeat scroll 0 0 transparent;
 	color: #404040;
 	float: left;
@@ -1308,7 +1308,7 @@ body #footer {
 
 .msg .ok {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/msg_bg.png)
+		url(/images/msg_bg.png)
 		no-repeat scroll 3px -247px transparent;
 	padding: 2px 10px 2px 23px;
 	height: 18px;
@@ -1322,7 +1322,7 @@ body #footer {
 	line-height: 24px;
 	border: 1px solid #DDDDDD;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/input.gif) repeat
+		url(/images/input.gif) repeat
 		scroll 0 0 #FFF;
 	color: #666;
 	padding-left: 5px;
@@ -1357,13 +1357,13 @@ body #footer {
 
 .boxbtn dd .buttonsub {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/newfree/define_btn.jpg)
+		url(/images/newfree/define_btn.jpg)
 		no-repeat;
 }
 
 .boxbtn dd .buttonreset {
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/newfree/cancel_btn.jpg)
+		url(/images/newfree/cancel_btn.jpg)
 		no-repeat;
 }
 
@@ -1381,7 +1381,7 @@ body #footer {
 	padding: 8px 10px 2px 23px;
 	overflow: hidden;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/msg_bg.png)
+		url(/images/msg_bg.png)
 		no-repeat scroll 3px -142px transparent;
 	color: #999;
 }
@@ -1402,7 +1402,7 @@ body #footer {
 	line-height: 24px;
 	border: 1px solid #DDDDDD;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/input.gif) repeat
+		url(/images/input.gif) repeat
 		scroll 0 0 #FFF;
 	color: #666;
 	padding-left: 5px;
@@ -1434,7 +1434,7 @@ body #footer {
 
 #headerfree {
 	background:
-		url("http://image.uucall.cn:8180/aacall/account/image/login/login_07.jpg")
+		url("/images/login/login_07.jpg")
 		repeat-x scroll left 75px transparent;
 	height: 85px;
 	margin: 0 auto 10px;
@@ -1443,7 +1443,7 @@ body #footer {
 
 #maincon .freecont {
 	background:
-		url("http://image.uucall.cn:8180/aacall/website/image/newfree/freelogin_bg.jpg")
+		url("/images/newfree/freelogin_bg.jpg")
 		no-repeat;
 	height: 311px;
 	margin: 35px auto;
@@ -1501,7 +1501,7 @@ body #footer {
 
 .loginta tr td span {
 	background:
-		url("http://image.uucall.cn:8180/aacall/account/image/login/login_06.jpg")
+		url("/images/login/login_06.jpg")
 		no-repeat scroll left center transparent;
 	color: #FD7835;
 	display: block;
@@ -1528,7 +1528,7 @@ body #footer {
 	line-height: 20px;
 	width: 195px;
 	background:
-		url("http://image.uucall.cn:8180/aacall/website/image/input.gif")
+		url("/images/input.gif")
 		repeat #FFFFFF;
 }
 
@@ -1544,7 +1544,7 @@ body #footer {
 	width: 255px;
 	height: 160px;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/newfree/backbox_icon1.jpg)
+		url(/images/newfree/backbox_icon1.jpg)
 		no-repeat left top;
 	margin: 35px 0 0 10px;
 }
@@ -1553,7 +1553,7 @@ body #footer {
 	width: 205px;
 	height: 160px;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/newfree/backbox_icon3.jpg)
+		url(/images/newfree/backbox_icon3.jpg)
 		no-repeat left top;
 	margin: 35px 0 0 50px;
 }
@@ -1562,7 +1562,7 @@ body #footer {
 	width: 205px;
 	height: 160px;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/newfree/backbox_icon1.jpg)
+		url(/images/newfree/backbox_icon1.jpg)
 		no-repeat left top;
 	margin: 35px 0 0 50px;
 }
@@ -1571,7 +1571,7 @@ body #footer {
 	width: 205px;
 	height: 160px;
 	background:
-		url(http://image.uucall.cn:8180/aacall/website/image/newfree/backbox_icon3.jpg)
+		url(/images/newfree/backbox_icon3.jpg)
 		no-repeat left top;
 	margin: 35px 0 0 50px;
 }
@@ -1643,7 +1643,7 @@ body #footer {
 	border-bottom: 0px none;
 	font-weight: 100;
 	background: #FFFDF6
-		url(http://image.uucall.cn:8180/aacall/website/image/my_rate1.gif)
+		url(/images/my_rate1.gif)
 		no-repeat scroll 45px 7px;
 }
 
@@ -1652,6 +1652,6 @@ body #footer {
 	border-bottom: 0px none;
 	font-weight: 100;
 	background: #FFFDF6
-		url(http://image.uucall.cn:8180/aacall/website/image/my_rate2.gif)
+		url(/images/my_rate2.gif)
 		no-repeat scroll 50px 7px;
 }
