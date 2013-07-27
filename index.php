@@ -136,8 +136,6 @@ if (isset ( $_SESSION ['login'] ) && !empty($_SESSION ['login'])) {
 		href="http://account.uucall.com/u/showAddress.do">收货地址信息</a></li>
 </ul>
 </div>
-<script type="text/javascript"
-	src="http://www.uucall.com/script.js?f=unreadmsg"></script>
 
 <div id="maincon_l_c_r">
 <div id="maincon_l_c_r_con">
