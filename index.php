@@ -11,12 +11,6 @@ if (isset ( $_SESSION ['login'] ) && !empty($_SESSION ['login'])) {
 ?>
 
 
-
-
-
-
-
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -306,106 +300,6 @@ if (isset ( $_SESSION ['login'] ) && !empty($_SESSION ['login'])) {
 </div>
 <div style="margin-bottom: 10px;"><img
 	src="http://image.uucall.cn:8180/aacall/account/image/acc_index_new_07.jpg" /></div>
-
-<div id="footer" style="font-family: Arial;">
-<div id="links"><a href="http://www.uucall.com/about/">关于UUCall</a> | <a
-	href="http://www.uucall.com/introduce.html">了解UUCall</a> | <a
-	href="http://www.uucall.com/about/history.html">UUCall历程</a> | <a
-	href="http://www.uucall.com/about/service.html">客户服务</a> | <a
-	href="http://www.uucall.com/about/business.html" rel="nofollow">市场合作</a>
-| <a href="http://www.uucall.com/about/partner.html">合作伙伴</a> | <strong><a
-	href="http://www.uucall.com">网络电话</a></strong></div>
-Copyright?2010 CHINA TELECOM (HONG KONG)INTERNATIONAL GROUP CO., LIMITED
-中華電信（香港）國際有限公司. 闽ICP备06030882号<br />
-<a
-	href="http://www.ofta.gov.hk/en/tele-lic/operator-licensees/pnets-ets.html"
-	rel="nofollow" target="_blank" style="color: #9A9A9A">香港电讯管理局PNETS牌照第1533号</a><br />
-<img
-	src="http://image.uucall.cn:8180/aacall/website/image/pay_360renzheng.jpg" /><img
-	src="http://image.uucall.cn:8180/aacall/website/image/pay_kuaiqian.jpg" /><img
-	src="http://image.uucall.cn:8180/aacall/website/image/pay_zhifubao.jpg" /><img
-	src="http://image.uucall.cn:8180/aacall/website/image/pay_yibao.jpg" />
-<script
-	src="http://s9.cnzz.com/stat.php?id=4938497&web_id=4938497&show=pic1"
-	language="JavaScript"></script></div>
-<script type="text/javascript"
-	src="http://account.uucall.com/script.js?f=message"></script> <script
-	type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-20864828-2']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script> <script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-5621701-1");
-pageTracker._trackPageview();
-} catch(err) {}
-loadScript('autock2', 'http://image.uucall.cn:8180/aacall/adds/p/autock2.js?' + Math.random());
-</script> <script src="http://static.getclicky.com/js"
-	type="text/javascript"></script> <script type="text/javascript">try{ clicky.init(66368548); }catch(err){}</script>
-<div style="display: none;">本站关键词：<a href="http://www.uucall.com/"
-	title="网络电话" target="_blank"><strong>网络电话</strong></a> <a
-	href="http://www.uucall.com/" title="免费网络电话" target="_blank"><strong>免费网络电话</strong></a><a
-	href="http://www.uucall.com/" title="网络电话免费打" target="_blank"><strong>网络电话免费打</strong></a>
-<a href="http://www.uucall.com/" title="免费电话" target="_blank"><strong>免费电话</strong></a><a
-	href="http://www.uucall.com/sitemap.htm" title="百度站点地图" target="_blank"><strong>百度站点地图</strong></a>
-<a href="http://www.uucall.com/sitemap.xml" title="Google站点地图"
-	target="_blank"><strong>Google站点地图</strong></a></div>
-
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-20864828-2']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script></div>
-<div class="tfield" id="UserNameField" style="display: none;">
-
-<h6><span>绑定邮箱</span><a href="javascript:void(0);" id="closebnt"
-	onclick="OpenDiv(2)" title="关闭">关闭</a></h6>
-<span class="toptips">建议使用常用邮箱方便找回密码该邮箱地址还能作为您的用户名</span>
-<div class="input left"><label><font>*</font>&nbsp;邮箱地址：</label> <input
-	type="text" class="input_other" id="U_UserName" value="请输入您常用的Email地址"
-	tabindex="1" maxlength="30" name="name"
-	onkeydown="if (event.keyCode==13)setUsername()" /></div>
-<div class="msg attention left">
-<p class="attention left" style="display: none;">请填写您的Email地址</p>
-<p class="error left" style="display: none;" id="UserName_e"></p>
-<p class="ok left" style="display: none;" id="UserName_s">可以提交</p>
-</div>
-<dl class="left boxbtn">
-	<dd><label> <input type="button" name="button" id="buttonsub" value=""
-		class="buttonsub" onclick="setUsername();" /> </label></dd>
-	<dd><label> <input type="reset" name="button" id="buttonreset" value=""
-		class="buttonreset" onclick="CloseDiv(1)" /> </label></dd>
-</dl>
-</div>
-<div style="display: none;" id="backbox1" class="tfield">
-<h6><span>绑定邮箱</span><a href="javascript:void(0);" title="关闭"
-	onclick="G('backbox1').style.display='none';location.reload();">关闭</a></h6>
-<p class="backbox1 backbox"><b>恭喜您，绑定成功</b><br />
-<br />
-<span>您的邮箱：<font color="red" id="emailname"></font>可作为用户名登入，并且通过该邮箱您还可以找回密码，请先开通密码找回功能！</span><br />
-<a href="javascript:void(0);"
-	onclick="G('backbox1').style.display='none';location.reload();"><img
-	src="http://image.uucall.cn:8180/aacall/website/image/newfree/backbox_icon2.jpg" /></a>
-</p>
-
-</div>
 </body>
 </html>
 
