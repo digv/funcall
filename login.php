@@ -87,7 +87,7 @@ $url = $o -> getAuthorizeURL(TY_CALL_BACK);
 		<td>&nbsp;</td>
 	</tr>
 </table>
-<p style="padding-top: 8px;"><a href="<?php echo $url ; ?>"><img src="/images/tianyi.jpg" /></a></p>
+<p style="padding-top: 8px;"><a href="<?php echo $url ; ?>" target="_blank"><img src="/images/tianyi.jpg" /></a></p>
 </div>
 </div>
 </form>
