@@ -1,3 +1,9 @@
+<?php 
+
+	
+
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -15,8 +21,8 @@
 <form name="accountForm" method="post" action="/checkUser.do"
 	onsubmit="return submitForm();"><input type="hidden" name="to" value="">
 <div id="header">
-<h1 id="logo"><a href="http://www.uucall.com"><img
-	src="http://image.uucall.cn:8180/aacall/website/image/logo.jpg" /></a>
+<h1 id="logo"><a href="http://call.digv.cn"><img
+	src="http://image.uucall.cn:8180/aacall/website/image/digv.jpg" /></a>
 </h1>
 <div id="top_r">
 <div id="top_r_t">
@@ -60,8 +66,8 @@
 		<td><input type="password" name="uinfo.password" id="password"
 			tabindex="2" style="ime-mode: disabled" onkeydown="clearMsg();"
 			maxlength="16" /></td>
-		<td style="line-height: 26px;">&nbsp;<a
-			href="http://account.uucall.com/showGetPwd.do">忘记密码？</a></td>
+		<!-- <td style="line-height: 26px;">&nbsp;<a
+			href="http://account.uucall.com/showGetPwd.do">忘记密码？</a></td>  -->
 	</tr>
 
 
@@ -77,8 +83,7 @@
 		<td>&nbsp;</td>
 	</tr>
 </table>
-<p style="padding-top: 8px;">还未注册UUCall?&nbsp;&nbsp;<a
-	href="http://account.uucall.com/register.do">立即注册</a></p>
+<p style="padding-top: 8px;"><a href=""><img src="/images/tianyi.jpg" /></a></p>
 </div>
 </div>
 </form>
