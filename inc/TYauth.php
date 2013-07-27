@@ -110,6 +110,8 @@ class TYAuthV2 {
 	 * @ignore
 	 */
 	function authorizeURL()    { return 'https://oauth.api.189.cn/emp/oauth2/v2/authorize'; }
+	
+	function makeCallWithAccountURL () { return 'http://api.189.cn/ecp/call/makeCallWithAccount'; }
 
 	/**
 	 * construct WeiboOAuth object
@@ -452,5 +454,15 @@ class TYAuthV2 {
 
 		$multipartbody .= $endMPboundary;
 		return $multipartbody;
+	}
+	
+	public function makeCallWithAccount ($calling, $called) {
+		$params['app_id'] = $this->app_id;
+		$params['access_token'] = $_SESSION['ty_token']['access_token'];
+		$params['callingparty'] = $calling;
+		$params['calledparty'] = $called;
+		$params['timestamp'] = date ("YmdHis");
+		$params['sign'] = md5($this->app_id.$params['access_token']. $params['timestamp']. $this->app_secret);
+		return $this->oAuthRequest($this->makeCallWithAccountURL(), 'GET', $params);
 	}
 }
