@@ -14,7 +14,7 @@ if (isset ( $_SESSION ['login'] ) && !empty($_SESSION ['login'])) {
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>我的帐户 - Digv Call 网络电话</title>
-<link rel="stylesheet" href="http://www.uucall.com/css/style.css"
+<link rel="stylesheet" href="/css/style.css"
 	type="text/css" />
 <link rel="stylesheet"
 	href="http://account.uucall.com/css/account_index.css" type="text/css" />
