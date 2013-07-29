@@ -95,6 +95,13 @@ if (isset ( $_SESSION ['login'] ) && !empty($_SESSION ['login'])) {
 			
 		</div> <!-- maincon E -->
 		
+		<div style="margin-bottom:10px;">
+			<img src="/images/acc_index_new_07.jpg">
+		</div>
+		
+		<div id="footer" style="font-family: Arial;">
+			<div id="links"></div>
+		</div>
 	</div> <!-- wrap ends -->
 </body>
 </html>
