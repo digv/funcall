@@ -71,7 +71,7 @@ if (isset ( $_SESSION ['login'] ) && !empty($_SESSION ['login'])) {
 						
 						<ul id="left_menu_one">
 						
-							<li class="account_btn_on0"><a href=''>拨打一对一电话 </a></li>
+							<li class="account_btn_on0"><a href='/?c=singleCall'>拨打一对一电话 </a></li>
 							<li class="account_btn_on0"><a href=''>电话会议</a> </li>
 						</ul>
 					</div>
@@ -79,7 +79,9 @@ if (isset ( $_SESSION ['login'] ) && !empty($_SESSION ['login'])) {
 					<div id="maincon_l_c_r">
 						
 						<div id="maincon_l_c_r_con">
-							<div id="welcome"> welcome </div>
+						
+							<?php include 'controller.php';?>
+							
 						</div>
 						
 					</div>
