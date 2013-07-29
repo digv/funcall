@@ -70,8 +70,12 @@ if (isset ( $_SESSION ['login'] ) && !empty($_SESSION ['login'])) {
 						</h1>
 					</div>
 					
-					<div id="maincon_c_r">
-					
+					<div id="maincon_l_c_r">
+						
+						<div id="maincon_l_c_r_con">
+						
+						</div>
+						
 					</div>
 					
 				</div>
