@@ -48,6 +48,12 @@ if (isset ( $_SESSION ['login'] ) && !empty($_SESSION ['login'])) {
 				<div id="maincon_l_c">
 				
 					<div id="maincon_c_l">
+						<h1 id="maincon_c_l_h1">
+							<a href="http://www.uucall.com/u/showUserInfo.do">我的帐户首页</a>
+						</h1>
+					</div>
+					
+					<div id="maincon_c_r">
 					
 					</div>
 					
