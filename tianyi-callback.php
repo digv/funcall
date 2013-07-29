@@ -1,6 +1,6 @@
 <?php
-include_once 'inc/config.php';
-include_once 'inc/TYauth.php';
+include_once ('inc/config.php');
+include_once ('inc/TYauth.php');
 
 session_start();
 
@@ -19,6 +19,7 @@ if ($_REQUEST['code']) {
 		
 	}
 }
+//exit ;
 //var_dump($_SESSION);
 if (isset($_SESSION['ty_token']) && $_SESSION['ty_token']['access_token']) {
 	header('location:/');

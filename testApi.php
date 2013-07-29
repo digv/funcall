@@ -17,3 +17,4 @@ if (isset ( $_GET ['calling'] ) && $_GET ['called']) {
 } else  {
 	echo 'test';
 }
+var_dump ($_SESSION ['ty_token']);
