@@ -32,6 +32,23 @@ if (isset ( $_SESSION ['login'] ) && !empty($_SESSION ['login'])) {
 					</a>
 				</h1>
 			</div> <!-- nav-top E -->
+			
+			<div class="clear"></div>
+			
+			<div id="top_banner">
+				<div id="top_banner_l"></div>
+					
+					<div id="top_banner_c">
+						<div id="navList">
+							<a class="top_banner_on0" href="/">首页</a>
+						</div>
+					</div>
+					
+				<div id="top_banner_r"></div>
+				
+			</div>
+			
+			<div class="clear"></div>
 		
 		</div><!-- header ends -->
 		
