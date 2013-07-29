@@ -73,7 +73,7 @@ if (isset ( $_SESSION ['login'] ) && !empty($_SESSION ['login'])) {
 					<div id="maincon_l_c_r">
 						
 						<div id="maincon_l_c_r_con">
-						
+							<div id="welcome"> welcome </div>
 						</div>
 						
 					</div>
