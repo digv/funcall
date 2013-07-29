@@ -68,6 +68,12 @@ if (isset ( $_SESSION ['login'] ) && !empty($_SESSION ['login'])) {
 						<h1 id="maincon_c_l_h1">
 							<a href="/">我的帐户首页</a>
 						</h1>
+						
+						<ul id="left_menu_one">
+						
+							<li class="account_btn_on0">拨打一对一电话 </li>
+							<li class="account_btn_on0">电话会议 </li>
+						</ul>
 					</div>
 					
 					<div id="maincon_l_c_r">
