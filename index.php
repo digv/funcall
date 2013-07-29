@@ -71,8 +71,8 @@ if (isset ( $_SESSION ['login'] ) && !empty($_SESSION ['login'])) {
 						
 						<ul id="left_menu_one">
 						
-							<li class="account_btn_on0">拨打一对一电话 </li>
-							<li class="account_btn_on0">电话会议 </li>
+							<li class="account_btn_on0"><a href=''>拨打一对一电话 </a></li>
+							<li class="account_btn_on0"><a href=''>电话会议</a> </li>
 						</ul>
 					</div>
 					
