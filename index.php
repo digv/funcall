@@ -55,7 +55,7 @@ if (isset ( $_SESSION ['login'] ) && !empty($_SESSION ['login'])) {
 		<div class="clear"></div>
 		
 		<div>
-			<img src="http://image.uucall.cn:8180/aacall/account/image/acc_index_new_03.jpg">
+			<img src="/images/acc_index_new_03.jpg">
 		</div>
 		
 		<div id="maincon" style="margin-bottom:0px;"> <!-- maincon S -->
@@ -66,7 +66,7 @@ if (isset ( $_SESSION ['login'] ) && !empty($_SESSION ['login'])) {
 				
 					<div id="maincon_c_l">
 						<h1 id="maincon_c_l_h1">
-							<a href="http://www.uucall.com/u/showUserInfo.do">我的帐户首页</a>
+							<a href="/">我的帐户首页</a>
 						</h1>
 					</div>
 					
