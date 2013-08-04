@@ -1,3 +1,5 @@
-<?php
+<form method="post">
 
-echo 'singleCall';
+<input type="text" name="dd" />
+<input type="submit" value="go" />
+</form>
